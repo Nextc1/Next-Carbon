@@ -120,12 +120,11 @@ export default function Launchpad() {
 
   const columns = [
     { uid: "cover", name: "" },
-    { uid: "Name", name: "Property Name" },
-    { uid: "propertyType", name: "Property Type" },
+    { uid: "Name", name: "Project Name" },
+    { uid: "propertyType", name: "Project Type" },
     { uid: "status", name: "Status" },
     { uid: "currentPrice", name: "Current Price" },
     { uid: "growth", name: "Growth" },
-    { uid: "dividend", name: "Dividend" },
     { uid: "availableShares", name: "Available Shares" },
     { uid: "actions", name: "Actions" },
   ];

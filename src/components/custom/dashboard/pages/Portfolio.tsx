@@ -218,7 +218,7 @@ function Portfolio(props) {
                       />
                     )}
 
-                    <div className="text-2xl">Total Properties Owned</div>
+                    <div className="text-2xl">Total Projects Owned</div>
                   </div>
                   <div className="flex flex-col items-center justify-center py-8 text-black bg-black/10 gap-y-1 rounded-2xl">
                     {metadata.totalSharesHeld <= 0 ? (
@@ -257,7 +257,7 @@ function Portfolio(props) {
 
           {/* Rest of your component (e.g., tables, additional UI elements) */}
           <div className="pt-8 text-left">
-            <p className="text-lg">Your Properties</p>
+            <p className="text-lg">Your Projects</p>
           </div>
           <div className="py-0 my-0 divider before:bg-black/5 after:bg-black/5"></div>
           <YourPropertiesTable dummyData={dummyData} />

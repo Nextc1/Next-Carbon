@@ -547,9 +547,9 @@ const PropertyView = () => {
                     </div>
                     {/* <div className="divider divider-vertical"></div> */}
                     <div className="flex flex-col leading-tight">
-                      <p className="text-black text-md">Area</p>
+                      <p className="text-black text-md">Carbon Credits</p>
                       <p className="font-bold text-black text-md">
-                        {currentProperty.Area} sq.ft
+                        {currentProperty.Area} 
                       </p>
                     </div>
                   </div>
@@ -571,37 +571,9 @@ const PropertyView = () => {
                     </div>
                   </div>
 
-                  {/* rent type */}
-                  <div className="flex flex-row items-center w-40 p-2 pl-4 bg-white border border-black rounded-xl gap-x-4">
-                    <div>
-                      <FontAwesomeIcon icon={faCalendarCheck} size="xl" />
-                    </div>
-                    {/* <div className="divider divider-vertical"></div> */}
-                    <div className="flex flex-col leading-tight">
-                      <p className="text-black text-md">Rent Period</p>
-                      <p className="font-bold text-black text-md">
-                        {currentProperty.RentType === "null"
-                          ? "-"
-                          : currentProperty.RentType}
-                      </p>
-                    </div>
-                  </div>
+              
 
-                  {/* rent value */}
-                  <div className="flex flex-row items-center w-40 p-2 pl-4 bg-white border border-black rounded-xl gap-x-4">
-                    <div>
-                      <FontAwesomeIcon icon={faDollarSign} size="xl" />
-                    </div>
-                    {/* <div className="divider divider-vertical"></div> */}
-                    <div className="flex flex-col leading-tight">
-                      <p className="text-black text-md">Rent Value</p>
-                      <p className="font-bold text-black text-md">
-                        {currentProperty.RentValue === null
-                          ? "-"
-                          : "$" + currentProperty.RentValue}
-                      </p>
-                    </div>
-                  </div>
+              
                 </div>
               </div>
               {/* map container */}
@@ -925,21 +897,13 @@ const PropertyView = () => {
                           currentProperty.JSONData.attributes.initialSharePrice}
                       </p>
                     </div>
-                    <div className="flex flex-col items-center justify-center">
+                    <div className="flex flex-col center items-center justify-center">
                       <p className="text-black text-md">Initial Price</p>
                       <p className="text-2xl font-bold">
                         ${currentProperty.JSONData.attributes.initialSharePrice}
                       </p>
                     </div>
-                    <div className="flex flex-row items-end justify-center col-span-2 gap-x-3">
-                      <div className="flex flex-col items-end justify-end">
-                        <p className="text-black text-md">Dividend / NFT</p>
-                        <span className="text-xs font-light">(/yr)</span>
-                      </div>
-                      <p className="text-5xl font-bold">
-                        {currentProperty.JSONData.attributes.dividendPerNFT}%
-                      </p>
-                    </div>
+                   
                   </div>
                 </div>
                 <div className="p-8 bg-white rounded-3xl invest-shadow">

@@ -62,7 +62,7 @@ const Dashboard: React.FC = ({ children }) => {
   // }, [umi]);
 
   const menuItems = [
-    { name: "All Properties", icon: faHouse, path: "/dashboard" },
+    { name: "All Projects", icon: faHouse, path: "/dashboard" },
     {
       name: "Launchpad / Invest",
       icon: faSeedling,
@@ -168,7 +168,7 @@ const Dashboard: React.FC = ({ children }) => {
               ? "Sell"
               : location.pathname.includes("/transfer")
               ? "Transfer"
-              : "All Properties"}
+              : "All Projects"}
           </h2>
           <div className="flex items-center space-x-4">
             <WalletMultiButton
