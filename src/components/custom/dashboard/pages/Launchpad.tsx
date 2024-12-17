@@ -125,7 +125,6 @@ export default function Launchpad() {
     { uid: "status", name: "Status" },
     { uid: "currentPrice", name: "Current Price" },
     { uid: "growth", name: "Growth" },
-    { uid: "dividend", name: "Dividend" },
     { uid: "availableShares", name: "Available Shares" },
     { uid: "actions", name: "Actions" },
   ];
