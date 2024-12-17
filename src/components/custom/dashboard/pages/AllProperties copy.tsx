@@ -77,8 +77,8 @@ export default function PropertyTable() {
   ];
 
   const propertyTypes = [
-    { uid: "residential", name: "Residential" },
-    { uid: "commercial", name: "Commercial" },
+    { uid: "residential", name: "Reduction" },
+    { uid: "commercial", name: "Avoidance" },
     { uid: "industrial", name: "Industrial" },
     { uid: "emptyPlot", name: "Empty Plot" },
   ];
@@ -150,9 +150,9 @@ export default function PropertyTable() {
   }, [properties]);
 
   const columns = [
-    { uid: "Name", name: "Property Name" },
+    { uid: "Name", name: "Project Name" },
     { uid: "Location", name: "Location" },
-    { uid: "JSONData.attributes.propertyType", name: "Property Type" },
+    { uid: "JSONData.attributes.propertyType", name: "Project Type" },
     { uid: "JSONData.attributes.initialSharePrice", name: "Ticket Price" },
     { uid: "JSONData.attributes.initialSharePrice", name: "Current Price" },
     { uid: "JSONData.attributes.initialSharePrice", name: "Total Shares" },
@@ -332,7 +332,7 @@ export default function PropertyTable() {
                 variant="flat"
                 className="h-12 text-md"
               >
-                Property Type
+                Project Type
               </Button>
             </DropdownTrigger>
             <DropdownMenu

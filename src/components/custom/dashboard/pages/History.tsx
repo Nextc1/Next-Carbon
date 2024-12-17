@@ -13,7 +13,7 @@ import { ChevronDownIcon } from "../icons/ChevronDownIcon";
 import { usePropertiesStore } from "../../../../state-management/store";
 
 const txnColumns = [
-  { uid: "propertyName", name: "Property Name" },
+  { uid: "propertyName", name: "Project Name" },
   { uid: "location", name: "Location" },
   { uid: "ticketPrice", name: "Ticket Price" },
   { uid: "sharesBought", name: "Shares Bought" },

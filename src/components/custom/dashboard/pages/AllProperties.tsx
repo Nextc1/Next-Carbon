@@ -167,7 +167,7 @@ export default function PropertyTable() {
     { uid: "status", name: "Status" },
     { uid: "currentPrice", name: "Current Price" },
     { uid: "growth", name: "Growth" },
-    { uid: "dividend", name: "Dividend" },
+   
     { uid: "availableShares", name: "Available Shares" },
     { uid: "actions", name: "Actions" },
   ];
@@ -368,7 +368,7 @@ export default function PropertyTable() {
     <div className="w-full max-w-full px-4 mx-auto">
       <div className="flex items-center justify-between mb-6">
         <div className="flex flex-col items-start">
-          <h2 className="text-2xl font-normal">Explore Properties</h2>
+          <h2 className="text-2xl font-normal">Explore Projects</h2>
           <h1 className="text-5xl font-bold">Your Next Investment</h1>
         </div>
         <div className="text-right">
@@ -389,7 +389,7 @@ export default function PropertyTable() {
                 variant="flat"
                 className="h-12 text-md"
               >
-                Property Type
+                Project Type
               </Button>
             </DropdownTrigger>
             <DropdownMenu

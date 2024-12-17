@@ -284,7 +284,7 @@ export default function Sell() {
         >
           <TableHeader
             columns={[
-              { uid: "propertyName", name: "Property Name" },
+              { uid: "propertyName", name: "Project Name" },
               { uid: "location", name: "Location" },
               { uid: "sellPrice", name: "Selling Price" },
               { uid: "sharesListed", name: "Shares Listed" },

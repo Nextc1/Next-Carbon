@@ -132,7 +132,7 @@ function Navbar() {
       >
         {/* Navigation links */}
         <div className="flex flex-col gap-4 md:flex-row md:gap-8 md:mr-6">
-          {["Home", "About Us", "How it works?"].map((item, index) => (
+          {["Home", "How it works?"].map((item, index) => (
             <p
               key={index}
               className={`text-base md:text-md hover:cursor-pointer hover:underline hover:underline-offset-2 ${

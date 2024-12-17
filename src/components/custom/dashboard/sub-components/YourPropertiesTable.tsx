@@ -27,9 +27,9 @@ const propertyTypes = [
 ];
 
 const columns = [
-  { uid: "propertyName", name: "Property Name" },
+  { uid: "propertyName", name: "Project Name" },
   { uid: "location", name: "Location" },
-  { uid: "propertyType", name: "Property Type" },
+  { uid: "propertyType", name: "Project Type" },
   { uid: "initialSharePrice", name: "Initial Share Price" },
   { uid: "currentPrice", name: "Current Price" },
   { uid: "quantity", name: "Your Shares" },
@@ -189,7 +189,7 @@ export default function YourPropertiesTable() {
                 variant="flat"
                 className="h-12 text-md"
               >
-                Property Type
+                Project Type
               </Button>
             </DropdownTrigger>
             <DropdownMenu
@@ -208,7 +208,7 @@ export default function YourPropertiesTable() {
         </div>
         <Input
           className="w-full max-w-lg text-xl"
-          placeholder="Search for a property by name..."
+          placeholder="Search for a project by name..."
           startContent={<SearchIcon />}
           value={filterValue}
           onValueChange={setFilterValue}

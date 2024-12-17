@@ -44,7 +44,7 @@ function Home() {
           {/* Text container */}
           <div className="flex flex-col items-center justify-center lg:items-start">
             <div className="mb-3 text-3xl lg:text-3xl">
-              The New Age De-Fi Protocol for Real-Estate Properties
+              The New Age De-Fi Protocol for sustainability projects
             </div>
             {/* <BoxReveal boxColor={"#000000"} duration={1.0}>
               <div className="flex flex-col text-5xl gap-y-3 lg:text-[5rem]">
@@ -228,7 +228,7 @@ function Home() {
       {/* Properties for everyone container */}
       <div className="container flex flex-col items-center justify-center mx-auto mb-28">
         <div className="flex flex-col mb-4 text-center gap-y-0">
-          <p className="text-4xl font-bold">Properties for Everyone's Budget</p>
+          <p className="text-4xl font-bold">Sustainable project for Everyone</p>
           {/* Sub heading container */}
           <div className="flex flex-col items-center justify-center my-4">
             <p className="text-md">Show prices in</p>
@@ -308,7 +308,7 @@ function Home() {
         <CustomLamp />
       </div> */}
 
-      {/* Build wealth container */}
+      {/* Build wealth container
       <div className="px-4 pb-32">
         <div className="container flex flex-col items-center justify-center w-full px-4 py-12 mx-auto bg-black rounded-3xl my-28 gap-y-3">
           <div className="flex flex-col text-center">
@@ -329,7 +329,7 @@ function Home() {
             Get Started
           </button>
         </div>
-      </div>
+      </div> */}
 
       {/* Footer */}
       <Footer />
