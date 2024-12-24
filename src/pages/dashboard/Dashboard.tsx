@@ -93,7 +93,7 @@ const Dashboard: React.FC = ({ children }) => {
       {/* Sidebar */}
       <aside className="w-[18rem] h-full bg-gray-100 border-r border-gray-200">
         <div className="p-6">
-          <h1 className="mt-6 mb-12 text-4xl font-black">Exira</h1>
+          <h1 className="mt-6 mb-12 text-4xl font-black">Next Carbon</h1>
           <div className="space-y-6">
             <div className="flex flex-col items-start w-full">
               <h2 className="font-semibold text-gray-500 text-md mb-">

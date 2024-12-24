@@ -87,7 +87,7 @@ function Navbar() {
               onClick={handleGoToApp}
             >
               <div className="flex flex-row items-center gap-x-4">
-                <p>Exira App</p>
+                <p>Next Carbon App</p>
                 <FontAwesomeIcon icon={faChevronRight} />
               </div>
             </button>

@@ -382,7 +382,7 @@ function AboutUs(props) {
         <p className="text-4xl font-bold">
           Got questions or want to know more? We’d love to hear from you!
         </p>
-        <p className="text-3xl">connect@exira.io</p>
+        <p className="text-3xl">connect@nextcarbon.in</p>
       </div>
 
       {/* footer */}

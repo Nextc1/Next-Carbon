@@ -198,7 +198,7 @@ function Navbar() {
                   onClick={handleGoToApp}
                 >
                   <div className="flex flex-row items-center justify-center gap-2">
-                    <p>Exira App</p>
+                    <p>App</p>
                     <FontAwesomeIcon icon={faChevronRight} size="2xs" />
                   </div>
                 </button>
