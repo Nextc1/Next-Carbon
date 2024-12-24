@@ -85,9 +85,9 @@ const Waitlist: React.FC = () => {
                 A Platform Built for You
               </h2>
               <p className="mt-2 text-base text-gray-700 sm:text-lg">
-                Exira is built on blockchain technology, ensuring every
-                investment is transparent, secure, and tradeable. Use your real
-                estate shares as collateral, trade them in our marketplace, or
+                Next Carbon is built on blockchain technology, ensuring every
+                investment is transparent, secure, and tradeable. Use your Carbon
+                Credit shares as collateral, trade them in our marketplace, or
                 simply sit back and enjoy the passive income.
               </p>
             </div>

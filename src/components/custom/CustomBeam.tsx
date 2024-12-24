@@ -74,7 +74,7 @@ export function AnimatedBeamMultipleOutputDemo({
         <div className="flex flex-col justify-center">
           <div className="z-20 flex flex-row items-center justify-between px-20 py-3 bg-black md:px-8 gap-x-4 md:gap-x-20 rounded-xl">
             <div className="flex flex-row items-center gap-x-4">
-              <p className="font-bold text-white text-md md:text-2xl">Exira</p>
+              <p className="font-bold text-white text-md md:text-2xl">Next Carbon</p>
             </div>
           </div>
         </div>
